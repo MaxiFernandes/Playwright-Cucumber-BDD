@@ -6,7 +6,7 @@ import { Dashboard } from '../pages/Dashboard';
 
 Before(async function (this: CustomWorld) {
 
-  const page = await initBrowser();
+  const page = await initBrowser(process.env.CI ? true : undefined);
 
   this.page = page;
 
