@@ -1,0 +1,12 @@
+El archivo .env debería estar así:
+
+* Durante desarrollo y debugging: HEADLESS=false --> Abre el navegador al correr un test
+* Cuando se ejecuten los tests en CI/CD o pipeline: HEADLESS=true --> No abre el navegador al correr un test
+
+Para usar Node V20 ejecutar el siguiente comando:
+
+* $env:Path="C:\tools\node20;" + $env:Path --> Es necesaria esa version de node para trabajar con cucumber 
+
+Para volver a usar Node V23 solo hay que abrir una nueva terminal
+
+npx cucumber-js --name "Busqueda exitosa"

@@ -1,0 +1,29 @@
+{
+  "name": "playwright_cucumber_bbd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test": "cucumber-js && node generate-report.js",
+  "test:success": "cucumber-js --tags @success && node generate-report.js",
+  "test:validation": "cucumber-js --tags @validation && node generate-report.js",
+  "test:regression": "cucumber-js --tags @regression && node generate-report.js",
+  "test:headless": "HEADLESS=true cucumber-js && node generate-report.js",
+  "report": "node generate-report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.4.0",
+    "multiple-cucumber-html-reporter": "^3.10.0",
+    "playwright": "^1.58.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}

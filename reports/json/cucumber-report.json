@@ -1,0 +1,1442 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "busqueda-en-el-menu-lateral;buscar-secciones-del-menu-lateral",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Buscar secciones del menu lateral",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 793180000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Que estoy en la pagina de iniciar sesión",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4388819700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Inicio sesión correctamente",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2283438400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Escribo \"Admin\" en la barra de busqueda",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1350850899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Deberia visualizar \"Admin\" en el panel lateral izquierdo",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531818899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 460917000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "busqueda-en-el-menu-lateral;buscar-secciones-del-menu-lateral",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Buscar secciones del menu lateral",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 396710399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Que estoy en la pagina de iniciar sesión",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3858727200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Inicio sesión correctamente",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2238304300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Escribo \"PIM\" en la barra de busqueda",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1343864699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Deberia visualizar \"PIM\" en el panel lateral izquierdo",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 527570200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 384887800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "busqueda-en-el-menu-lateral;buscar-secciones-del-menu-lateral",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Buscar secciones del menu lateral",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 424281499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Que estoy en la pagina de iniciar sesión",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3894456600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Inicio sesión correctamente",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2247470099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Escribo \"Leave\" en la barra de busqueda",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1333641000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Deberia visualizar \"Leave\" en el panel lateral izquierdo",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 534233200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 392771000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "busqueda-en-el-menu-lateral;buscar-secciones-del-menu-lateral",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Buscar secciones del menu lateral",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 438365200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Que estoy en la pagina de iniciar sesión",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3890206999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Inicio sesión correctamente",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2244131500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Escribo \"Time\" en la barra de busqueda",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1321919099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Deberia visualizar \"Time\" en el panel lateral izquierdo",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 532757000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 376224399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "busqueda-en-el-menu-lateral;buscar-secciones-del-menu-lateral",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Buscar secciones del menu lateral",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 448471799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Que estoy en la pagina de iniciar sesión",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3838394499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Inicio sesión correctamente",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2306235899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Escribo \"Recruitment\" en la barra de busqueda",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1346886899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Deberia visualizar \"Recruitment\" en el panel lateral izquierdo",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 532883300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 376832599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "busqueda-en-el-menu-lateral;buscar-secciones-del-menu-lateral",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Buscar secciones del menu lateral",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 456807500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Que estoy en la pagina de iniciar sesión",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3809134300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Inicio sesión correctamente",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2227971099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Escribo \"My Info\" en la barra de busqueda",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1354808300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Deberia visualizar \"My Info\" en el panel lateral izquierdo",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 533090799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 387970899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "busqueda-en-el-menu-lateral;buscar-secciones-del-menu-lateral",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Buscar secciones del menu lateral",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 429747500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Que estoy en la pagina de iniciar sesión",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3878415699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Inicio sesión correctamente",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2243867800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Escribo \"Performance\" en la barra de busqueda",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1369081300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Deberia visualizar \"Performance\" en el panel lateral izquierdo",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 539739399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 341474199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "busqueda-en-el-menu-lateral;buscar-secciones-del-menu-lateral",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Buscar secciones del menu lateral",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 450993300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Que estoy en la pagina de iniciar sesión",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3903244600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Inicio sesión correctamente",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2256692999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Escribo \"Dashboard\" en la barra de busqueda",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1361409500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Deberia visualizar \"Dashboard\" en el panel lateral izquierdo",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 533910499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 407847500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "busqueda-en-el-menu-lateral;buscar-secciones-del-menu-lateral",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Buscar secciones del menu lateral",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 433742299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Que estoy en la pagina de iniciar sesión",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3984523699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Inicio sesión correctamente",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2257473100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Escribo \"Directory\" en la barra de busqueda",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1343512600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Deberia visualizar \"Directory\" en el panel lateral izquierdo",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526918200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 393408599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "busqueda-en-el-menu-lateral;buscar-secciones-del-menu-lateral",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "Buscar secciones del menu lateral",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 438484800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Que estoy en la pagina de iniciar sesión",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3854206500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Inicio sesión correctamente",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2691649799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Escribo \"Maintenance\" en la barra de busqueda",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1348219499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Deberia visualizar \"Maintenance\" en el panel lateral izquierdo",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 552369000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 496742700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "busqueda-en-el-menu-lateral;buscar-secciones-del-menu-lateral",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Buscar secciones del menu lateral",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 474031900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Que estoy en la pagina de iniciar sesión",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4419315699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Inicio sesión correctamente",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5477328699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Escribo \"Claim\" en la barra de busqueda",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 517779399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Deberia visualizar \"Claim\" en el panel lateral izquierdo",
+            "match": {
+              "location": "src\\steps\\dashboard.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 535114099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 472519200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "busqueda-en-el-menu-lateral",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Busqueda en el menu lateral",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "src\\features\\dashboard.feature"
+  },
+  {
+    "description": "  COMO usuario\n  QUIERO iniciar sesión\n  PARA acceder al sistema",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-en-orangehrm;login-exitoso",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Login exitoso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 415914399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Que estoy en la pagina de Login",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4872840499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Ingreso credenciales validas",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1391424200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Hago click en el botón Login",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 558426399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Deberia visualizar el dashboard",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1984530900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 383463699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@success",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-en-orangehrm;validaciones-de-login",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Validaciones de login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 438064100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Que estoy en la pagina de Login",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4175784899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Ingreso el usuario \"Maxi\" y la contraseña \"maxi123\"",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1066086400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Hago click en el botón Login",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 534663900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Deberia visualizar 1 mensaje \"Invalid credentials\"",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1236951600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 372019499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-en-orangehrm;validaciones-de-login",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Validaciones de login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 446444699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Que estoy en la pagina de Login",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4510665699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Ingreso el usuario \"\" y la contraseña \"admin123\"",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1046552499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Hago click en el botón Login",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 538680500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Deberia visualizar 1 mensaje \"Required\"",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4006900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 382366899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-en-orangehrm;validaciones-de-login",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Validaciones de login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 419913499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Que estoy en la pagina de Login",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4085928000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Ingreso el usuario \"Admin\" y la contraseña \"\"",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1067959200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Hago click en el botón Login",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 539399800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Deberia visualizar 1 mensaje \"Required\"",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4572400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 388436399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-en-orangehrm;validaciones-de-login",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Validaciones de login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 430461700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Que estoy en la pagina de Login",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4016932999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Ingreso el usuario \"\" y la contraseña \"\"",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1047221699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Hago click en el botón Login",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 536917199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Deberia visualizar 2 mensaje \"Required\"",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4875599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 427570099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@validation",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-en-orangehrm",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login en OrangeHRM",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "src\\features\\login.feature"
+  }
+]
