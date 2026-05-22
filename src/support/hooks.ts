@@ -6,7 +6,7 @@ import { Dashboard } from '../pages/Dashboard';
 
 Before(async function (this: CustomWorld) {
 
-  const page = await initBrowser(false);
+  const page = await initBrowser();
 
   this.page = page;
 
@@ -17,7 +17,7 @@ Before(async function (this: CustomWorld) {
 
 After(async function (this: CustomWorld, scenario) {
 
-  if (scenario.result?.status === 'FAILED') {
+  if (scenario.result?.status === 'FAILED' && this.page) {
 
     const screenshot = await this.page.screenshot({
       path: `reports/screenshots/${scenario.pickle.name}.png`,
