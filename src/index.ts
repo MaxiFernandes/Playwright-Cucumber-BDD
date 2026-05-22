@@ -16,9 +16,9 @@ export async function initBrowser(headless?: boolean) {
     // Usa variable HEADLESS del .env
     headless: headless ?? (process.env.HEADLESS === 'true'),
 
-    // Hace más lenta la ejecución para poder verla
-    // Para CI/CD eliminarlo
-    slowMo: 500
+    // Local = lento para visualizar
+    // CI/CD = rápido
+    slowMo: process.env.CI ? 0 : 500
 
   });
 
