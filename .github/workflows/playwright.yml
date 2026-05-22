@@ -12,6 +12,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
+    env:
+      BASE_URL: https://opensource-demo.orangehrmlive.com
+      USERNAME: Admin
+      PASSWORD: admin123
+      HEADLESS: true
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
