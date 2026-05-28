@@ -34,6 +34,37 @@
 
 ###
 
+<h2 align="left">📁 Project Structure</h2>
+
+```text
+PLAYWRIGHT_CUCUMBER_BDD/
+│
+├── .github/
+│
+├── reports/
+│   ├── html/
+│   ├── json/
+│   ├── screenshots/
+│   └── videos/
+│
+├── src/
+│   ├── features/
+│   ├── pages/
+│   ├── steps/
+│   ├── support/
+│   └── index.ts
+│
+├── .env
+├── .gitignore
+├── config.ts
+├── cucumber.cjs
+├── generate-report.js
+├── notas.txt
+├── package.json
+├── playwright.config.ts
+└── tsconfig.json
+```
+
 <h2 align="left">⚙️ Instalación</h2>
 
 ###
@@ -101,3 +132,11 @@ Workflow ubicado en:<br><br>.github/workflows/
 * Framework escalable
 
 ###
+
+<h2 align="left">👨‍💻 Author</h2>
+
+###
+
+Maximiliano Fernandes
+
+QA Automation Engineer
