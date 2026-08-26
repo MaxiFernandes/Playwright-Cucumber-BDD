@@ -3,7 +3,7 @@
 [![CI](https://github.com/MaxiFernandes/Playwright-Cucumber-BDD/actions/workflows/playwright.yml/badge.svg)](https://github.com/MaxiFernandes/Playwright-Cucumber-BDD/actions/workflows/playwright.yml)
 ###
 
-<p align="left">Framework de automatización E2E desarrollado con Playwright, Cucumber BDD y TypeScript.<br>Está diseñado para pruebas escalables, mantenibles y fácil integración con CI/CD.</p>
+<p align="left">E2E automation framework developed with Playwright, Cucumber BDD, and TypeScript.<br>It is designed for scalable, maintainable testing and easy CI/CD integration.</p>
 
 ###
 
@@ -15,10 +15,10 @@
 * Cucumber BDD
 * Page Object Model (POM)
 * HTML Reports
-* Screenshots y Videos automáticos
-* Ejecución por Tags
+* Screenshots y Automatic Videos
+* Execution by Tags
 * Headless Execution
-* CI/CD con GitHub Actions
+* CI/CD with GitHub Actions
 
 ###
 
@@ -65,7 +65,7 @@ PLAYWRIGHT_CUCUMBER_BDD/
 └── tsconfig.json
 ```
 
-<h2 align="left">⚙️ Instalación</h2>
+<h2 align="left">⚙️ Installation</h2>
 
 ###
 
@@ -75,7 +75,7 @@ PLAYWRIGHT_CUCUMBER_BDD/
 
 ###
 
-<h2 align="left">🎯 Ejecución</h2>
+<h2 align="left">🎯 Run Tests</h2>
 
 ###
 
@@ -86,18 +86,18 @@ PLAYWRIGHT_CUCUMBER_BDD/
 
 ###
 
-<h2 align="left">📊 Reportes</h2>
+<h2 align="left">📊 Reporting</h2>
 
 ###
 
-Luego de cada ejecución se generan automáticamente:
+After each execution, the following are automatically generated:
 
-* Reporte HTML con resumen de ejecución  
-* Screenshots en caso de fallos  
-* Videos de ejecución  
-* Resultados JSON para integraciones
+* HTML report with execution summary 
+* Screenshots in case of errors  
+* Execution videos  
+* JSON results for integrations
 
-Ubicación:<br><br>reports/html
+Location:<br><br>reports/html
 
 ###
 
@@ -105,31 +105,31 @@ Ubicación:<br><br>reports/html
 
 ###
 
-El proyecto utiliza GitHub Actions para ejecutar automáticamente los tests en cada push o pull request.
+The project uses GitHub Actions to automatically run tests on every push or pull request.
 
-El pipeline incluye:
+Pipeline includes:
 
-* Instalación de dependencias
-* Instalación de navegadores Playwright
-* Ejecución automática de tests
-* Generación de reportes
-* Publicación de artifacts
+* Installing dependencies
+* Installation of Playwright browsers
+* Automatic test execution
+* Report generation
+* Posting artifacts
 
-Workflow ubicado en:<br><br>.github/workflows/
+Workflow located in:<br><br>.github/workflows/
 
 ###
 
-<h2 align="left">✅ Buenas Prácticas Implementadas</h2>
+<h2 align="left">✅ Implemented Best Practices</h2>
 
 ###
 
 * Page Object Model (POM)
-* Separación de responsabilidades
-* Reutilización de componentes
-* Hooks centralizados
-* Configuración desacoplada
-* Evidencias automáticas
-* Framework escalable
+* Separation of responsibilities
+* Component reuse
+* Centralized hooks
+* Decoupled configuration
+* Automated evidence
+* Scalable framework
 
 ###
 
