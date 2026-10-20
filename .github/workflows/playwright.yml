@@ -1,51 +1,65 @@
 name: Playwright Cucumber Tests
+run-name: 🧪 Cucumber BDD Tests in ${{ github.ref_name }} by @${{ github.actor }} 👨🏻‍🔬
 
 on:
   push:
     branches:
       - main
       - master
-
+  pull_request:
+    branches:
+      - main
+      - master
   workflow_dispatch:
 
 jobs:
   test:
+    name: 🎭 Playwright BDD Suite
     runs-on: ubuntu-latest
 
     env:
       BASE_URL: https://opensource-demo.orangehrmlive.com
-      USERNAME: Admin
-      PASSWORD: admin123
+      USERNAME: ${{ secrets.ORANGE_USERNAME }}
+      PASSWORD: ${{ secrets.ORANGE_PASSWORD }}
       HEADLESS: true
 
     steps:
-      - name: Checkout Repository
+      - name: 💻 Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: 💿 Setup Node.js & Cache npm
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: 'npm'
 
-      - name: Install Dependencies
+      - name: ⚡ Cache Playwright Browsers
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('package-lock.json') }}
+
+      - name: 🧬 Install Project Dependencies
         run: npm ci
 
-      - name: Install Playwright Browsers
+      - name: 🌐 Install Playwright Browsers & OS Dependencies
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps
 
-      - name: Run Tests
+      - name: 🔌 Install Playwright OS Dependencies Only
+        if: steps.playwright-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps
+
+      - name: 🧪 Run Playwright Cucumber Tests
         run: npm test
 
-      - name: Upload Test Artifacts
+      - name: 📊 Upload Test Reports & Evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-test-results
-          path: test-results/
-
-      - name: Upload Playwright HTML Report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: playwright-html-report
-          path: playwright-report/
+          name: playwright-test-execution-reports
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7
